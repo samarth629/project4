@@ -1,0 +1,146 @@
+* {box-sizing: border-box;
+ font-family: Verdana, sans-serif; margin:0
+;padding: 0px;}
+
+body{
+
+  background-image: linear-gradient(#EFC2D7,#9895EF);
+
+}
+  
+.nav{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px;
+}
+.nav-links ul li{
+    display:  inline-flex;
+    list-style-type: none;
+    padding: 10px;
+    text-transform: capitalize;
+
+}
+
+.nav-links{
+  background: whitesmoke;
+  border-radius: 140px;
+  padding-right: 5px;
+}
+.logo{
+  padding: 10px;
+    color:black;
+}
+.dropbtn {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+    background:white;
+    color: orange;
+    outline-style: solid;
+    outline-color: #9895EF;
+    width: 250px;
+  }
+  .abc-btn{
+    font-size: 16px;
+    margin-left: -50px;
+    color: white;
+    background: #9895EF;
+    padding: 10px;
+    border: none;
+    width: 100px;
+    border-radius: 15px;
+  }
+  .dropdown {
+    display: inline-block;
+    position: absolute;
+top: 15px; 
+left: 680px;
+border-radius: 10px;
+list-style-type:decimal;
+padding-left: 56px;
+}
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  
+  .dropdown:hover .dropdown-content {display: block; }
+  
+
+  .btn1{
+    width: 150px;
+    background-color: white;
+    color: black;
+    outline-style: solid;
+    outline-color: #9895EF;
+    border-radius: 10px;
+    position: absolute;
+    top: 9px;
+    left: 400px;
+    padding: 6px;
+    border: none;
+  }
+  
+  .icon-bar  {
+    width: 20%;
+    text-align: center;
+    font-size: 36px;
+    position: absolute;
+    top: 9px;
+    right: -30px;
+  }
+  input[type=text] {
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 130px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 16px;
+    padding-left: 10px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  input[type=text]:focus {
+    width: 40%;
+  }
+  .content{ 
+    color: whitesmoke;
+    text-align: center;
+    position: relative;
+    top: -800px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    text-decoration: underline;
+
+  }
+  .abc3{
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    width: 250px;
+    padding: 10px;
+    color: black;
+    background: #9895EF;
+  }
